@@ -1,0 +1,40 @@
+New Features The main feature was to start using the Digital Processing capability of the E-chip within the Emax. The new features are rather basic in comparison to later models, and they are not real-time – they can take minutes to execute.
+
+    Spectrum Interpolation Synthesis
+    Digital Signal Processing (change sample rate and pitch)
+    Stack Preset Model
+    Load HD Bank from MIDI
+    CDROM support for the OMI CDROM
+    MIDI Preset Change Receive On/Off
+    Linear Digital Taper curve rather than exponential
+    Global MIDI channel set
+    Finer Resolution of Velocity to Pitch
+    Expanded Delay Times on the envelopes
+    VCA Envelope Response
+    Channel Output Volume trims stored to EPROM.
+
+Bugs Life The following OS bugs were fixed (the Emax seems to have had the largest number of internal insects ever – we are already on OS 3.2 when SE fixes some more…..):
+
+    The Rack Mount now arpeggiates over MIDI in
+    The service diagnostics made harder
+    Improved MIDI overflow mode
+    Performer software from MOTU works properly
+    Arpeggiator no longer latches
+    MIDI sample dump works with SP1200 files
+    Splice and Erase functions work together okay
+    Real-time controls can amplify level as well as attenuate
+
+Spectrum Interpolation Synthesis This provides a complete digital additive synthesizer. Up to 24 sine wave frequencies can be added to from Spectrums. These Spectrums can be placed at up to 24 time slice locations, so that the sound varies over time. There are 95 pre-programmed Spectrums on the Sound Disk. The idea was to be able to create new sounds and compete with the new L.A synthesis in the Roland D50 by having a sampled sound alongside a complex synthesis sound. However this feature is time consuming and fiddly to use. Results can be obtained, but it’s a propellor head job.
+
+Transform Multiplication The next wizard feature that the egg heads at Santa Cruz dreamed up (what are they on ?), enabled you to crash two samples together to form a third mangled sound. Now if the two sounds have rich harmonics or are similar in harmoic structure then the resulting sound can be worthwhile. But this only works on samples up to 32k bytes, as otherwise the processing time can be measured in days. Having tried this in the past, this is quite a limit as this leaves you playing with samples that are quite short. Another propellor head job, or at least the realm of single men in dark nights….
+
+Upgrading  The SE upgrade pack could be bought from E-mu Systems, and it was carefully designed so you could only update one Emax from the upgrade Disk. The SE upgrade consists of :
+
+    SE Manual
+    SE Update and Development Disk
+    Spectrum Synthesis Sound Disk (example Spectrums)
+    Transform Multiplication Sound Disk (example presets)
+
+The upgrade procedure was very easy, you just boot off the SE Upgrade Disk and the software is loaded in. You then need to copy the new software onto all your library of sample diskettes, as the Emax has no internal OS.
+
+The Development Disk contains a set of presets with spectra in them.
